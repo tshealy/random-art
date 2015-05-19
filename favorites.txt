@@ -1,0 +1,24 @@
+Seed: 6550779101348684700
+color-6550779101348684700-0.png:
+  red: avg((x+y)/2, sin(pi*power_abs((y * y), extreme(power_abs(y, sin(sin(pi*avg((x-y)/2, (x-y)/2))))))))
+  green: sin(pi*cos(sin(pi*avg(y, power_abs((y * y), extreme(cos(sin((x+y)/2))))))))
+  blue: avg((y * y), sin(pi*power_abs(x, sin(pi*cos(power_abs(x, cos(power_abs(y, extreme(sin(sin(extreme((x/2)))))))))))))
+
+
+Seed: 8861958218748321853
+color-8861958218748321853-0.png:
+  red: sin(expm1(expm1(exp(multi_square_pow((x * y), square(multi_square_pow((x/2), avg((y/2), multi_square_pow((x+y)/2, square(expm1(power_abs((x/2), sin(pi*square(multi_square_pow((x * y), (x/2))))))))))))))))
+  green: sin(multi_square_pow((x * x), sin(x*negative(avg((x * x), sin(pi*multi_square_pow((y * y), sin(power_abs((x+y)/2, negative(sin(x*exp(square(sin(pi*negative(power_abs((x * x), multi_square_pow((x-y)/2, extreme(sin(pi*square(square(sin(x*power_abs((x * y), negative(extreme(multi_square_pow((x * y), expm1(exp(negative(sin(pi*(x+y)/2))))))))))))))))))))))))))))))
+  blue: square(cos(x*exp(extreme(sin(x*sin(pi*cos(sin(sin(x*avg((x-y)/2, avg((x-y)/2, negative(power_abs((x-y)/2, expm1((x * y)))))))))))))))
+
+Seed: 6020295750955404829
+color-6020295750955404829-0.png:
+  red: extreme(sin(pi*exp(exp(exp(exp(avg((y/2), cos(pi*y))))))))
+  green: sin(cos(pi*expm1(expm1(avg((x-y)/2, cos(pi*sin(pi*avg((y * y), (y/2)))))))))
+  blue: cos(cos(x*avg(y, sin(x*avg((x+y)/2, sin(power_abs((y/2), exp(extreme(cos(pi*power_abs((x-y)/2, sqrt(power_abs((y/2), avg(x, avg((y/2), sin(x*sin((y * y))))))))))))))))))
+
+Seed: 8808253994470393155
+color-8808253994470393155-2.png:
+  red: power_abs((y * y), avg((x * y), sin(x*cos(pi*power_abs((x+y)/2, exp(square(avg((y/2), avg((x+y)/2, sin(avg((x * x), square(power_abs((x-y)/2, power_abs((y * y), sin(x*avg((x/2), (x+y)/2))))))))))))))))
+  green: power_abs((x * y), power_abs((x+y)/2, avg((x+y)/2, expm1(square(cos(pi*expm1(square(exp(power_abs((y/2), expm1(avg((x * y), power_abs((x-y)/2, avg((x * x), power_abs((x-y)/2, avg((x-y)/2, avg((y * y), cos(avg((x/2), expm1(power_abs((y * y), cos(cos(x*sin(x*sin(expm1(expm1((y/2))))))))))))))))))))))))))))
+  blue: square(avg((y/2), cos(cos(pi*exp((x * y))))))
